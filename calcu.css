@@ -1,0 +1,35 @@
+body{
+    background-image:linear-gradient(to right,rgb(255,0,0,0),rgb(255,0,0,1));
+}
+.cls{
+    width:360px;
+    height:450px;
+    position:absolute;
+    padding:15px 10px 50px 10px;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    background-color:gainsboro;
+    border-radius:10px;
+    display:flex;
+}
+#result{
+    width:86%;
+    height:50px;
+}
+#clear{
+    height:84px;
+    background-color:blue;
+    color:white;
+}
+input{
+    width:100%;
+    margin:10px;
+    border-radius:20px;
+    padding:15px;
+    font-weight:1000;
+    border:1px solid black;
+}
+input[type=text]{
+    box-shadow:inset 11px 0px 8px rgb(0,0,0,0.07);
+}
